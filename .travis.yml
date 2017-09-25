@@ -12,7 +12,7 @@ before_install:
   - phpenv config-rm xdebug.ini
   
 install:
-  - composer install --prefer-dist --no-interaction --ignore-platform-reqs
+  - composer install --no-interaction 
 
 script:
  - composer ci
